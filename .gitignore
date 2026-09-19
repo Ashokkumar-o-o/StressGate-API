@@ -1,0 +1,47 @@
+# ==============================================================================
+# OS / System Files
+# ==============================================================================
+.DS_Store
+Thumbs.db
+*.log
+.eslintcache
+
+# ==============================================================================
+# Environment Variables & Secrets (CRITICAL for security)
+# ==============================================================================
+.env
+.env.local
+.env.*.local
+*.env
+auth_secret/
+
+# ==============================================================================
+# Dependencies (Shared, Frontend, Backend, Simulation)
+# ==============================================================================
+node_modules/
+/frontend/node_modules/
+/backend/node_modules/
+/simulation/node_modules/
+
+# ==============================================================================
+# Build & Output Directories
+# ==============================================================================
+dist/
+build/
+/frontend/dist/
+/backend/dist/
+/simulation/dist/
+
+# ==============================================================================
+# Local Docker & Database Data (Prevents committing huge DB dumps)
+# ==============================================================================
+.docker/
+postgres_data/
+redis_data/
+
+# ==============================================================================
+# Testing & Benchmarking Outputs (For your stress testing metrics)
+# ==============================================================================
+coverage/
+*.performance.json
+stress-test-reports/

@@ -1,6 +1,6 @@
 # Technical Dashboard
 
-A high-concurrency Technical Dashboard project featuring an Express backend, simulation engine, and system monitoring layers, utilizing Docker for localized infrastructure management.
+⚡ A resilient, high-concurrency Node.js/TypeScript e-commerce engine designed to absorb 10,000+ concurrent blitz requests using Redis as an atomic memory gatekeeper. Features asynchronous background worker queues for PostgreSQL persistence, simulated payment fail-safe rollbacks, and Grafana k6 performance telemetry graphing.
 
 ## 📁 Repository Structure
 
